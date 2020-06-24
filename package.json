@@ -1,0 +1,40 @@
+{
+  "name": "parsemoney",
+  "version": "1.0.0",
+  "description": "Money parser using fp-ts and io-ts",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathish3sank/parsemoney.git"
+  },
+  "keywords": [
+    "Money",
+    "Parser",
+    "Typescript",
+    "Fp",
+    "fp-ts",
+    "io-ts"
+  ],
+  "author": "Sathish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathish3sank/parsemoney/issues"
+  },
+  "homepage": "https://github.com/sathish3sank/parsemoney#readme",
+  "dependencies": {
+    "@types/ramda": "^0.27.6",
+    "fp-ts": "^2.6.6",
+    "io-ts": "^2.2.6",
+    "io-ts-types": "^0.5.7",
+    "monocle-ts": "^2.2.0",
+    "newtype-ts": "^0.3.4",
+    "ramda": "^0.27.0",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
